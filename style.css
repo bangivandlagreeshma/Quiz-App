@@ -13,19 +13,21 @@ body {
 }
 
 .quiz-container {
-    background-color: white;
+    background-color:white;
     width: 80%;
     margin: 0 auto;
     margin-top: 2em;
 }
 
 .quiz .slide .question{
+    color:black;
     text-align: center;
     font-size: 1.5em;
     padding-top: 0.6em;
 }
 
 .quiz .slide .answers {
+    color:black;
     margin-top: 0.6em;
 }
 
@@ -35,6 +37,7 @@ body {
 
 .slide {
 
+
 }
 
 .prev-next-btn {
@@ -43,14 +46,30 @@ body {
 }
 
 .submit-wrapper {
+    
     text-align: center;
     margin-top: 0.6em;
 }
 
-.previous-btn, .next-btn, .submit-btn{
+.previous-btn{
     padding: 0.6em;
     font-size: 1.2em;
     font-weight: 400;
+}
+.next-btn{
+    padding: 0.6em;
+    font-size: 1.2em;
+    font-weight: 400;
+}
+
+
+
+
+.submit-btn{
+    background-color:lightgreen;
+    padding: 0.6em;
+    font-size: 1.2em;
+    font-weight: 400
 }
 
 .next-btn {
